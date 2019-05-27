@@ -1,0 +1,92 @@
+html {
+    background: url("../img/bg.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'avenirroman', Geneva, Verdana, sans-serif;
+    
+}
+
+.full-heigth {
+    height: 100vh;
+    justify-content: center;
+}
+
+.box-text {
+    background: rgba(255, 255, 255,0.8);
+    max-width: 400px;
+    padding: 20px 25px;
+    margin: auto;
+}
+
+.txt {
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.is-vcentered {
+    align-self: center;
+  }
+
+  .btn-box , .btn-box2  {
+    background-color: #C6C6C5;
+    border-color: #C6C6C5;
+    border-radius: 50%;
+    display: table;
+    padding: 30px 40px;
+    
+    margin: 45px auto;
+  
+  }
+
+  .btn-box2 {
+    padding: 50px 40px;
+  }
+
+  .btn {
+      color: black;
+      align-self: center;
+      display: block;
+      text-align: center;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+.cinza {
+    position: relative;
+    margin-left: -70px;
+    background-color: #C6C6C5;
+    color: black;
+    text-align: center;
+    width: 140%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 5rem;
+}
+
+
+  @media only screen and (max-width: 600px) { 
+
+    .full-heigth {
+        height: auto;
+    
+    }
+
+    .img-fluid  {
+        text-align: center;
+    }
+
+    .cinza {
+        width: 100%;
+        margin-left: 0px;
+    }
+   }
